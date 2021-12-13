@@ -1,0 +1,35 @@
+{
+    "name": "purple-vampire",
+    "displayName": "purple-vampire",
+    "description": "purple vampire",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "purple vampire",
+                "uiTheme": "vs-dark",
+                "path": "./themes/purple vampire-color-theme.json"
+            }
+        ]
+    },
+    "icon": "icons/purple-vampire.png",
+    "author": {
+        "name": "Armando Romero",
+        "email": "armando.romero1153@gmail.com",
+        "url": "https://www.youtube.com/channel/UC9Ff1ypUKX3v6W1tIuGexjg"
+    },
+    "repository": {
+        "url": "https://github.com/armando10rafael10/theme-purple-vampire.git",
+        "type": "git"
+    },
+    "publisher": "purple-black-vampire",
+    "dependencies": {
+        "vsce": "^2.5.1"
+    }
+}
